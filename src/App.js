@@ -7,6 +7,7 @@ import Nasa from "./Nasa.js"
 function App() {
   return (
     <div className="App">
+      <h1>Nasa's photo of the day</h1>
       <Nasa/>
 
       <p>

@@ -7,6 +7,8 @@ const NasaCard = props => {
     <div className="nasa-card ">
       <img  src={props.url} />
       <h2>{props.title}</h2>
+      <h3>{props.date}</h3>
+      <h3>{props.explanation}</h3>
     
     </div>
   );
