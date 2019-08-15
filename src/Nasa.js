@@ -27,23 +27,8 @@ axios
 return (
 
     <div className="todayCon">
-  
-
-           <NasaCard  date={pic.date} explanation={pic.explanation} title={pic.title}
-          url={pic.url}/>;
-      
-   
-    
-      {/* pic.map(item =>(
-    date={pic.date}
-    explanation={pic.explanation}
-    title={pic.title}
-    url={pic.url}
-)) */}
-    
+            <NasaCard  date={pic.date} explanation={pic.explanation} title={pic.title}
+          url={pic.url}/>
     </div>
-
 )
-
-
 }

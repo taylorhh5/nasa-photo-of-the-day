@@ -1,5 +1,12 @@
+
+
 .App {
   text-align: center;
+  background: #282c34;
+
+  h1{
+    color: aliceblue;
+  }
 }
 
 .App-logo {
@@ -30,4 +37,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nasa-card{
+  border: 1px solid black;
+  background: #282c34;
+}
+.nasa-card2{
+  display:flex;
+  justify-content: space-around;
+
+  
+
+}
+
+
+.work {
+  
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #14171a
+}
+
+
+
+.ui.card {
+
+  
+  background: #6e95a33a !important;
+  height: 55rem;
+  width:22rem !important;
+  margin-top: 1rem !important;
+}
+.ui.card .content .description{
+font-size: 1.3rem;
+
 }
